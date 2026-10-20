@@ -1,0 +1,11 @@
+:root { color-scheme: dark; --bg: #080b12; --panel: #111726; --line: #263145; --ink: #f1f5f9; --muted: #94a3b8; --accent: #3b82f6; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+.shell { max-width: 1080px; margin: 0 auto; padding: 64px 24px; }
+h1 { font-size: clamp(36px, 6vw, 64px); margin: 8px 0 16px; letter-spacing: -0.03em; }
+.eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: 0.18em; font-size: 12px; }
+.lede { color: var(--muted); font-size: 18px; max-width: 720px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 40px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.card h2 { font-size: 16px; margin: 0 0 8px; }
+.card p { color: var(--muted); margin: 0; font-size: 14px; }
